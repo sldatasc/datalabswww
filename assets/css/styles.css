@@ -1,0 +1,59 @@
+nav {
+    background-color: rgb(130, 205, 248);
+  }
+
+  .page-footer {
+    padding-top: 20px;
+    color: #fff;
+    background-color: rgb(130, 205, 248) !important;
+  }
+  .btn-primary {
+    background-color: rgb(130, 205, 248) !important;
+  }
+  .teal-text.text-darken-4, h1, h2,h3, h4, h5, h6 {
+    color: rgb(130, 205, 248) !important;
+  }
+  .fa.fa-instagram ,.fa.fa-dribbble, .fa.fa-twitter, .fa.fa-linkedin, .fa.fa-youtube-play,.fa.fa-youtube , .fa.fa-tumblr , .fa.fa-google-plus {
+    color: rgb(130, 205, 248) !important;
+    padding-right: 5px;
+    font-size: large;
+  }
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+  }
+  
+  section {
+    margin-bottom: 50px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  html {
+    height: 100%;
+  }
+  
+  body {
+    position: relative;
+    min-height: 100%;
+  }
+  
+
+  
+  .page-footer  a {
+    color: #fff;
+  }
+  
+  
+
+  

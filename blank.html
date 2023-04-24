@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Data Science Bootcamp</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link rel="stylesheet" type="text/css"  href="assets/css/styles.css">
+</head>
+<!-- add css section -->
+<style>
+    .carousel{
+        height: 600px; 
+        perspective: 250px;    
+        
+    }
+    .carousel .carousel-item {
+        width: 450px;
+        background: #fff;
+        padding: 50px;
+        height: auto;
+        text-align: center;
+        border-radius: 15px;
+    }
+    .img-area {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        overflow: hidden;
+        border-radius: 50%;
+        border: inset 8px deepskyblue;
+    }
+            .img-area img{
+                width: 100%;
+            }
+            .testi p {
+        color: #262626;
+        font-size: 18px;
+        line-height: 1.9;
+    }
+            .testi h4 {
+        font-size: 20px;
+        margin: 0;
+        color: #000;
+    }
+            .testi h5 {
+        font-size: 14px;
+        letter-spacing: 5px;
+        margin: 7px 0;
+    }
+
+</style>
+<body>
+<!-- Header -->
+  <header>
+  <!-- Navbar -->
+  <nav>
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo">DataLabs</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="dsbeginer.html">Courses</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Mobile Navbar -->
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="dsbeginer.html">Courses</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+
+    <section class="cta">
+        <div class="container">
+        <h1 class="teal-text text-darken-4 center-align" id="typed"></h1>
+          <!-- <h2>Ready to take your AI skills to the next level?</h2>
+          <p>Apply now for our AI training program and join the future of technology.</p> -->
+          <a href="#" class="btn btn-primary">Apply Now</a>
+        </div>
+      </section>
+  </header>
+   <div id="particles-js"></div>
+    <!-- parallax -->
+    <div class="parallax-container">
+    <div class="parallax">
+        <img src="assets/images/happy.jpg" alt="" class="responsive-img">
+    </div>
+    </div>
+
+    <!-- photo / grid -->
+    <section class="container section scrollspy onepager" id="photos">
+
+        <div class="">
+            <h1 class="teal-text text-darken-4 center-align">Our Course on Offer</h1>
+        </div>
+        <div class="row">
+          <div class="col s12 l4">
+            <img src="assets/images/studying.jpg" alt="" class="responsive-img materialboxed">
+          </div>
+          <div class="col s12 l6 offset-l1">
+            <h2 class="teal-text text-darken-4">Data Science for Beginners</h2>
+            <p>
+              This self-contained course is designed for individuals with little to no prior experience in data science. Learn the fundamental concepts and skills of data science in a practical, hands-on manner using Python and popular data science libraries. 
+              From data cleaning and analysis to machine learning model building and deployment, this course will provide you with the foundation you need to embark on your data science journey. 
+              Join us and unlock the power of data with our beginner-friendly course!
+            </p>
+            <button class="btn btn-primary">Apply now</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 l4 push-l7 offset-l1">
+            <img src="assets/images/happy4.jpg" alt="" class="responsive-img materialboxed">
+          </div>
+          <div class="col s12 l6 pull-l5">
+            <h2 class="teal-text text-darken-4 text-justify">Deep Learning for Beginners</h2>
+            <p>
+              Our Deep Learning for Beginners course! If you're interested in delving into the world of artificial neural networks and learning how to build and train deep learning models, this course is perfect for you. 
+              Designed for beginners with little to no prior experience in deep learning, this course will provide you with a solid foundation in deep learning concepts and techniques. From understanding neural networks and activation functions to implementing convolutional neural networks (CNNs) and recurrent neural networks (RNNs), this practical, hands-on course will equip you with the skills needed to start your journey into the exciting field of deep learning. 
+              Join us and unlock the potential of deep learning with our beginner-friendly course!
+            </p>
+            <button class="btn btn-primary" disabled>Coming Soon</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 l4 ">
+            <img src="assets/images/dl.jpg" alt="" class="responsive-img materialboxed">
+          </div>
+          <div class="col s12 l6 offset-l1">
+            <h2 class="teal-text text-darken-4">Advanced Deep Learning</h2>
+            <p>
+              Our Advanced Deep Learning course! If you're looking to take your deep learning skills to the next level, this course is designed for you. Building upon the foundational knowledge of deep learning, this course will dive into advanced topics such as advanced architectures, transfer learning, generative models, and reinforcement learning. You'll learn cutting-edge techniques and gain hands-on experience implementing advanced deep learning models using industry-standard frameworks. This course is perfect for those who are looking to expand their deep learning skillset and stay ahead in the rapidly evolving field of artificial intelligence. 
+              Join us and elevate your deep learning expertise with our advanced course!
+            </p>
+            <button class="btn btn-primary" disabled>Coming Soon</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 l4 push-l7 offset-l1">
+            <img src="assets/images/sensor.jpg" alt="" class="responsive-img materialboxed">
+          </div>
+          <div class="col s12 l6 pull-l5">
+            <h2 class="teal-text text-darken-4 text-justify">Deep Learning with Embeded Systems</h2>
+            <p>
+              If you're interested in combining the power of deep learning with the versatility of embedded systems, this course is tailored for you. 
+              Learn how to deploy deep learning models on resource-constrained embedded platforms, such as edge devices, Internet of Things (IoT) devices, and embedded systems in autonomous vehicles. 
+              You'll gain practical knowledge on optimizing deep learning models for performance and power efficiency, implementing inference on embedded hardware, and integrating deep learning into real-world embedded applications. 
+              This course is ideal for those looking to leverage deep learning in embedded systems for applications such as object detection, speech recognition, and gesture recognition. 
+              Join us and unlock the potential of deep learning in the exciting field of embedded systems!
+            </p>
+            <button class="btn btn-primary" disabled>Coming Soon</button>
+          </div>
+        </div>
+      </section>
+<!-- Main -->
+
+<main class="container">  
+
+  </main>
+      <!-- parallax -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="assets/images/AI.jpg" alt="" class="responsive-img">
+        </div>
+    </div>
+    <section class="container">
+      <h2>Welcome to DataLabs!</h2>
+      <p>Our bootcamps are designed to provide you with a comprehensive introduction to data science, artificial intelligence, machine learning and deep learning . Whether you're a complete beginner or have some experience already, our programs will help you develop the skills you need to succeed in the field.</p>
+    </section>
+    <!-- parallax -->
+  <div class="parallax-container">
+        <div class="parallax">
+            <img src="assets/images/presenting.jpg" alt="" class="responsive-img">
+        </div>
+    </div>
+
+
+      <!-- parallax -->
+      <div class="parallax-container">
+        <div class="parallax">
+            <img src="assets/images/presenting.jpg" alt="" class="responsive-img">
+        </div>
+    </div>
+
+    <div class="carousel">
+        <a class="carousel-item" href="#">
+            <div class="testi">
+                <div class="img-area">
+                    <img src="assets/images/happy3.jpg">
+                </div>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus veritatis repellendus delectus, est, alias recusandae."</p>
+                <h4>Jessica Jones</h4>
+                <h5>Web Designer</h5>
+            </div>
+        </a>
+        <a class="carousel-item" href="#">
+            <div class="testi">
+                <div class="img-area">
+                    <img src="assets/images/happy4.jpg">
+                </div>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus veritatis repellendus delectus, est, alias recusandae."</p>
+                <h4>Jessica Jones</h4>
+                <h5>Web Designer</h5>
+            </div>
+        </a>
+        <a class="carousel-item" href="#">
+            <div class="testi">
+                <div class="img-area">
+                    <img src="assets/images/happy2.jpg">
+                </div>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus veritatis repellendus delectus, est, alias recusandae."</p>
+                <h4>Jessica Jones</h4>
+                <h5>Web Designer</h5>
+            </div>
+        </a>
+        <a class="carousel-item" href="#">
+            <div class="testi">
+                <div class="img-area">
+                    <img src="assets/images/happy3.jpg">
+                </div>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus veritatis repellendus delectus, est, alias recusandae."</p>
+                <h4>Jessica Jones</h4>
+                <h5>Web Designer</h5>
+            </div>
+        </a>
+        <a class="carousel-item" href="#">
+            <div class="testi">
+                <div class="img-area">
+                    <img src="assets/images/happy4.jpg">
+                </div>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus veritatis repellendus delectus, est, alias recusandae."</p>
+                <h4>Jessica Jones</h4>
+                <h5>Web Designer</h5>
+            </div>
+        </a>
+      
+   </div>
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5>About Us</h5>
+          <p>We are a leading provider of data science education and training, dedicated to helping students and professionals develop the skills they need to succeed in the field.</p>
+        </div>
+        <div class="col l3 s12">
+          <h5>Links</h5>
+          <ul>
+            <li><a href="dsbeginer.html">Courses</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5>Contact</h5>
+          <ul>
+            <li>123 Main Street</li>
+            <li>Anytown, USA 12345</li>
+            <li><a href="tel:555-555-5555">555-555-5555</a></li>
+            <li><a href="mailto:info@datasciencebootcamp.com">info@datasciencebootcamp.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <hr>
+        <p class="center-align">&copy; 2023 DataLabs. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+  
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script src="https://unpkg.com/typewriter-effect@2.3.1/dist/core.js"></script>
+<script src="assets/js/script.js"></script>
+<script>
+    $(document).ready(function(){
+      $('.carousel').carousel({
+              padding: 200
+      });
+      autoplay();
+      function autoplay() {
+          $('.carousel').carousel('next');
+          setTimeout(autoplay, 4500);
+      }
+    });
+  </script>
+</html>
